@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/styles/style.css" rel="stylesheet">
+    <link href="./assets/styles/media.css" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
@@ -17,16 +18,16 @@
             <h2>Faça login na sua conta</h2>
             <form>
                 <p>E-mail</p>
-                <input type="email" placeholder="exemplo@gmail.com">
+                <input class="campo-form" type="email" placeholder="exemplo@gmail.com">
                 <p>Senha</p>
-                <input type="password" placeholder="0123456789">
-                <p><input type="radio"> Lembre de mim <a href="#">Esqueceu sua senha?</a></p>
+                <input class="campo-form" type="password" placeholder="0123456789">
+                <p><input type="radio"> Lembre de mim <a id="esqueceu" href="#">Esqueceu sua senha?</a></p>
                 <input id="btn-entrar" type="submit" value="Entrar na conta">
                 <p></p>
-                <input id="btn-google" type="submit" value="Ou faça login com o Google">
+                <input id="btn-google" type="submit" value= "Ou faça login com o Google">
             </form>
-            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>   
-        </aside>
+            <p id="cadastro">Não tem uma conta? <a href="#">Cadastre-se</a></p>   
+          </aside>
     </main>
     
 </body>
